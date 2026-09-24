@@ -4,55 +4,136 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="Blissy privacy policy.">
-<title>Blissy Privacy Policy</title>
+<title>Blissy 隱私權政策</title>
 <style>
 :root{color-scheme:light dark}
 *{box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",sans-serif;max-width:900px;margin:0 auto;padding:56px 24px;line-height:1.72;background:#fff;color:#171717}
-nav{margin-bottom:36px;font-size:14px}nav a{margin-right:18px}
+nav{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:36px;font-size:14px}
+nav .links a{margin-right:18px}
+.lang-switcher{display:flex;gap:6px;flex-wrap:wrap}
+.lang-switcher button{font:inherit;border:1px solid #d7d7d7;background:transparent;color:inherit;border-radius:999px;padding:6px 11px;cursor:pointer}
+.lang-switcher button[aria-pressed="true"]{background:#171717;color:#fff;border-color:#171717}
 h1{font-size:40px;letter-spacing:-.03em;margin:0 0 6px}
 h2{margin-top:38px}h3{margin-top:28px}
-hr{margin:48px 0;border:0;border-top:1px solid #ddd}
 small,.muted{color:#6b6b6b}
 a{color:inherit}
-@media(prefers-color-scheme:dark){body{background:#0b0b0b;color:#f3f3f3}hr{border-color:#333}small,.muted{color:#aaa}}
+[hidden]{display:none!important}
+@media(max-width:640px){nav{align-items:flex-start;flex-direction:column}.lang-switcher{width:100%}}
+@media(prefers-color-scheme:dark){
+body{background:#0b0b0b;color:#f3f3f3}.muted,small{color:#aaa}
+.lang-switcher button{border-color:#3b3b3b}.lang-switcher button[aria-pressed="true"]{background:#f3f3f3;color:#111;border-color:#f3f3f3}
+}
 </style>
 </head>
 <body>
-<nav><a href="index.html">Blissy</a><a href="support.html">Support</a></nav>
-<h1>Blissy Privacy Policy</h1>
-<p class="muted">Effective / 生效日期：2026-09-24</p>
+<nav>
+  <div class="links"><a href="index.html">Blissy</a> <a id="support-link" href="support.html">支援</a></div>
+  <div class="lang-switcher" aria-label="Language">
+    <button type="button" data-lang="zh-Hant" aria-pressed="true">繁體中文</button>
+    <button type="button" data-lang="zh-Hans" aria-pressed="false">简体中文</button>
+    <button type="button" data-lang="en" aria-pressed="false">English</button>
+  </div>
+</nav>
 
-<h2>繁體中文</h2>
-<p>Blissy 重視使用者隱私。本政策說明 Blissy 在 Apple TV 上為提供功能而處理的資料。</p>
-<h3>裝置上的資料</h3>
-<p>Blissy 會在裝置本機保存必要的 App 設定、播放狀態、歷史紀錄、快取資訊與登入工作階段資料。部分敏感憑證與使用者提供的 API Key 會使用 Apple Keychain 儲存。</p>
-<h3>第三方內容服務</h3>
-<p>當使用者瀏覽、登入或操作第三方內容服務時，Blissy 會依使用者要求直接與該服務通訊，以取得內容或帳號資料並執行相關操作。第三方服務可能依其自身的隱私權政策處理帳號資訊、裝置或網路資訊、搜尋、觀看或互動紀錄。</p>
-<h3>即時翻譯</h3>
-<p>即時翻譯為選用功能。使用者需自行提供 Gemini API Key，該 Key 儲存在裝置的 Apple Keychain。只有在使用者主動啟用即時翻譯時，產生翻譯所需的音訊資料才會傳送至 Google Gemini。</p>
-<h3>區域網路</h3>
-<p>Blissy 可能要求區域網路權限，用於 Blissy Remote、本機同步及相關媒體或控制功能。區域網路權限不會用於廣告追蹤。</p>
-<h3>分析、廣告與追蹤</h3>
-<p>目前 Blissy 未整合第三方廣告 SDK 或跨 App／網站追蹤 SDK。Blissy 開發者不會出售使用者個人資料，也不會使用 App 資料進行跨服務廣告追蹤。</p>
-<h3>保存與刪除</h3>
-<p>本機資料會保存在 Apple TV 上，直到使用者清除相關紀錄、移除帳號、重設資料或刪除 App。由第三方內容服務保存的資料，依該服務的帳號設定與隱私政策處理。</p>
+<main>
+<section data-section-lang="zh-Hant">
+  <h1>Blissy 隱私權政策</h1>
+  <p class="muted">生效日期：2026-09-24</p>
+  <p>Blissy 重視使用者隱私。本政策說明 Blissy 在 Apple TV 上為提供功能而處理的資料。</p>
+  <h2>裝置上的資料</h2>
+  <p>Blissy 會在裝置本機保存必要的 App 設定、播放狀態、歷史紀錄、快取資訊與登入工作階段資料。部分敏感憑證與使用者提供的 API Key 會使用 Apple Keychain 儲存。</p>
+  <h2>第三方內容服務</h2>
+  <p>當使用者瀏覽、登入或操作第三方內容服務時，Blissy 會依使用者要求直接與該服務通訊，以取得內容或帳號資料並執行相關操作。第三方服務可能依其自身的隱私權政策處理帳號資訊、裝置或網路資訊、搜尋、觀看或互動紀錄。</p>
+  <h2>即時翻譯</h2>
+  <p>即時翻譯為選用功能。使用者需自行提供 Gemini API Key，該 Key 儲存在裝置的 Apple Keychain。只有在使用者主動啟用即時翻譯時，產生翻譯所需的音訊資料才會傳送至 Google Gemini。</p>
+  <h2>區域網路</h2>
+  <p>Blissy 可能要求區域網路權限，用於 Blissy Remote、本機同步及相關媒體或控制功能。區域網路權限不會用於廣告追蹤。</p>
+  <h2>分析、廣告與追蹤</h2>
+  <p>目前 Blissy 未整合第三方廣告 SDK 或跨 App／網站追蹤 SDK。Blissy 開發者不會出售使用者個人資料，也不會使用 App 資料進行跨服務廣告追蹤。</p>
+  <h2>保存與刪除</h2>
+  <p>本機資料會保存在 Apple TV 上，直到使用者清除相關紀錄、移除帳號、重設資料或刪除 App。由第三方內容服務保存的資料，依該服務的帳號設定與隱私政策處理。</p>
+  <h2>聯絡方式</h2>
+  <p><a href="mailto:blissytheapp@gmail.com">blissytheapp@gmail.com</a></p>
+</section>
 
-<hr>
-<h2>简体中文</h2>
-<p>Blissy 重视用户隐私。本政策说明 Blissy 在 Apple TV 上为提供功能而处理的数据。Blissy 会在设备本地保存必要的 App 设置、播放状态、历史记录、缓存信息与登录会话数据。部分敏感凭证与用户提供的 API Key 会使用 Apple Keychain 保存。</p>
-<p>当用户浏览、登录或操作第三方内容服务时，Blissy 会根据用户要求直接与该服务通信。实时翻译为可选功能；只有在用户主动开启时，生成翻译所需的音频数据才会发送至 Google Gemini。Blissy 可能使用局域网权限提供 Blissy Remote 与本地同步功能。</p>
-<p>目前 Blissy 未集成第三方广告 SDK 或跨 App／网站跟踪 SDK。设备上的本地数据会保留至用户清除记录、移除账号、重置数据或删除 App。</p>
+<section data-section-lang="zh-Hans" hidden>
+  <h1>Blissy 隐私政策</h1>
+  <p class="muted">生效日期：2026-09-24</p>
+  <p>Blissy 重视用户隐私。本政策说明 Blissy 在 Apple TV 上为提供功能而处理的数据。</p>
+  <h2>设备上的数据</h2>
+  <p>Blissy 会在设备本地保存必要的 App 设置、播放状态、历史记录、缓存信息与登录会话数据。部分敏感凭证与用户提供的 API Key 会使用 Apple Keychain 保存。</p>
+  <h2>第三方内容服务</h2>
+  <p>当用户浏览、登录或操作第三方内容服务时，Blissy 会根据用户要求直接与该服务通信，以获取内容或账号数据并执行相关操作。第三方服务可能根据其自身隐私政策处理账号信息、设备或网络信息、搜索、观看或互动记录。</p>
+  <h2>实时翻译</h2>
+  <p>实时翻译为可选功能。用户需自行提供 Gemini API Key，该 Key 保存在设备的 Apple Keychain 中。只有在用户主动开启实时翻译时，生成翻译所需的音频数据才会发送至 Google Gemini。</p>
+  <h2>局域网</h2>
+  <p>Blissy 可能请求局域网权限，用于 Blissy Remote、本地同步及相关媒体或控制功能。局域网权限不会用于广告跟踪。</p>
+  <h2>分析、广告与跟踪</h2>
+  <p>目前 Blissy 未集成第三方广告 SDK 或跨 App／网站跟踪 SDK。Blissy 开发者不会出售用户个人数据，也不会使用 App 数据进行跨服务广告跟踪。</p>
+  <h2>保存与删除</h2>
+  <p>本地数据会保存在 Apple TV 上，直到用户清除相关记录、移除账号、重置数据或删除 App。由第三方内容服务保存的数据，按照该服务的账号设置与隐私政策处理。</p>
+  <h2>联系方式</h2>
+  <p><a href="mailto:blissytheapp@gmail.com">blissytheapp@gmail.com</a></p>
+</section>
 
-<hr>
-<h2>English</h2>
-<p>Blissy respects user privacy. Blissy stores necessary app preferences, playback state, history, cache information, and sign-in session data locally on Apple TV. Some sensitive credentials and user-provided API keys are stored using Apple Keychain.</p>
-<p>When a user browses, signs in to, or interacts with a third-party content service, Blissy communicates directly with that service as requested by the user. Live Translate is optional; audio required for translation is sent to Google Gemini only while the user enables the feature. Blissy may request local-network access for Blissy Remote, local synchronization, and related media or control features.</p>
-<p>The current Blissy app does not integrate third-party advertising SDKs or cross-app/cross-site tracking SDKs. Local data remains on Apple TV until the user clears relevant records, removes an account, resets data, or deletes the app.</p>
+<section data-section-lang="en" hidden>
+  <h1>Blissy Privacy Policy</h1>
+  <p class="muted">Effective date: September 24, 2026</p>
+  <p>Blissy respects user privacy. This policy explains the data Blissy processes on Apple TV to provide its features.</p>
+  <h2>Data stored on your device</h2>
+  <p>Blissy stores necessary app preferences, playback state, history, cache information, and sign-in session data locally on the device. Some sensitive credentials and user-provided API keys are stored using Apple Keychain.</p>
+  <h2>Third-party content services</h2>
+  <p>When a user browses, signs in to, or interacts with a third-party content service, Blissy communicates directly with that service as requested by the user to retrieve content or account data and perform related actions. Those services may process account information, device or network information, search activity, viewing activity, or interaction records under their own privacy policies.</p>
+  <h2>Live Translate</h2>
+  <p>Live Translate is optional. The user provides a Gemini API key, which is stored in Apple Keychain on the device. Audio required to generate a translation is sent to Google Gemini only while the user actively enables Live Translate.</p>
+  <h2>Local network</h2>
+  <p>Blissy may request local-network access for Blissy Remote, local synchronization, and related media or control features. Local-network access is not used for advertising tracking.</p>
+  <h2>Analytics, advertising, and tracking</h2>
+  <p>The current Blissy app does not integrate third-party advertising SDKs or cross-app/cross-site tracking SDKs. The Blissy developer does not sell users' personal data or use app data for cross-service advertising tracking.</p>
+  <h2>Retention and deletion</h2>
+  <p>Local data remains on Apple TV until the user clears relevant records, removes an account, resets app data, or deletes the app. Data retained by third-party content services is handled according to those services' account settings and privacy policies.</p>
+  <h2>Contact</h2>
+  <p><a href="mailto:blissytheapp@gmail.com">blissytheapp@gmail.com</a></p>
+</section>
+</main>
 
-<hr>
-<h2>Contact / 聯絡方式</h2>
-<p><a href="mailto:blissytheapp@gmail.com">blissytheapp@gmail.com</a></p>
 <p><small>© 2026 Blissy</small></p>
+
+<script>
+(() => {
+  const sections = [...document.querySelectorAll("[data-section-lang]")];
+  const buttons = [...document.querySelectorAll("[data-lang]")];
+  const supportLink = document.getElementById("support-link");
+  const labels = {
+    "zh-Hant": {title:"Blissy 隱私權政策", support:"支援"},
+    "zh-Hans": {title:"Blissy 隐私政策", support:"支持"},
+    "en": {title:"Blissy Privacy Policy", support:"Support"}
+  };
+
+  function normalize(value){
+    const v = (value || "").toLowerCase();
+    if (v.startsWith("zh-hant") || v.startsWith("zh-tw") || v.startsWith("zh-hk") || v.startsWith("zh-mo")) return "zh-Hant";
+    if (v.startsWith("zh")) return "zh-Hans";
+    return "en";
+  }
+
+  function setLanguage(lang, persist){
+    const chosen = labels[lang] ? lang : "en";
+    document.documentElement.lang = chosen;
+    document.title = labels[chosen].title;
+    supportLink.textContent = labels[chosen].support;
+    sections.forEach(section => { section.hidden = section.dataset.sectionLang !== chosen; });
+    buttons.forEach(button => { button.setAttribute("aria-pressed", String(button.dataset.lang === chosen)); });
+    if (persist) { try { localStorage.setItem("blissy-language", chosen); } catch (_) {} }
+  }
+
+  let saved = null;
+  try { saved = localStorage.getItem("blissy-language"); } catch (_) {}
+  const detected = saved || normalize((navigator.languages && navigator.languages[0]) || navigator.language);
+  setLanguage(detected, false);
+  buttons.forEach(button => button.addEventListener("click", () => setLanguage(button.dataset.lang, true)));
+})();
+</script>
 </body>
 </html>
