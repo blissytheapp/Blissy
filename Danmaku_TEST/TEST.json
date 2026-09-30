@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "time": 0.4,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16777215,
+    "hex": "#FFFFFF",
+    "text": "First! So happy to be here!",
+    "aiLevel": 0
+  },
+  {
+    "id": 2,
+    "time": 0.6,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16478873,
+    "hex": "#FB7299",
+    "text": "Bilibili粉色彈幕前排圍觀～",
+    "aiLevel": 0
+  },
+  {
+    "id": 3,
+    "time": 0.9,
+    "mode": 1,
+    "fontSize": 28,
+    "color": 16717636,
+    "hex": "#FF1744",
+    "text": "HIGH CUTENESS WARNING!! 🚨",
+    "aiLevel": 0
+  },
+  {
+    "id": 4,
+    "time": 1.2,
+    "mode": 5,
+    "fontSize": 28,
+    "color": 16766720,
+    "hex": "#FFD700",
+    "text": "✨ [ Eat Green • Love Animals • Save the Planet ] ✨",
+    "aiLevel": 1
+  },
+  {
+    "id": 5,
+    "time": 1.5,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 58998,
+    "hex": "#00E676",
+    "text": "Eat your greens! That smiling carrot is adorable 🥕",
+    "aiLevel": 0
+  },
+  {
+    "id": 6,
+    "time": 1.8,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 61695,
+    "hex": "#00F0FF",
+    "text": "青空水彩畫風真的太治癒了！",
+    "aiLevel": 0
+  },
+  {
+    "id": 7,
+    "time": 2.2,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 11766015,
+    "hex": "#B388FF",
+    "text": "The illustration quality is breathtaking 🌸",
+    "aiLevel": 0
+  },
+  {
+    "id": 8,
+    "time": 2.5,
+    "mode": 4,
+    "fontSize": 25,
+    "color": 7798531,
+    "hex": "#76FF03",
+    "text": "🥬 健康綠色生活走起！ Eat Green & Stay Healthy 🥦",
+    "aiLevel": 0
+  },
+  {
+    "id": 9,
+    "time": 2.8,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16744619,
+    "hex": "#FF80AB",
+    "text": "Look at that precious little piglet!! 🐷💖",
+    "aiLevel": 0
+  },
+  {
+    "id": 10,
+    "time": 3.1,
+    "mode": 5,
+    "fontSize": 28,
+    "color": 16728193,
+    "hex": "#FF4081",
+    "text": "★ Page 2: Love Animals, Protect Our Friends ★",
+    "aiLevel": 1
+  },
+  {
+    "id": 11,
+    "time": 3.4,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16748800,
+    "hex": "#FF9100",
+    "text": "小豬和小男孩抱在一起好溫暖啊！",
+    "aiLevel": 0
+  },
+  {
+    "id": 12,
+    "time": 3.7,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 58879,
+    "hex": "#00E5FF",
+    "text": "Animals are friends, not food! 🐾",
+    "aiLevel": 0
+  },
+  {
+    "id": 13,
+    "time": 4.1,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16776960,
+    "hex": "#FFFF00",
+    "text": "The page-flip effect is so smooth and realistic!",
+    "aiLevel": 0
+  },
+  {
+    "id": 14,
+    "time": 4.5,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16732754,
+    "hex": "#FF5252",
+    "text": "融化了融化了，這笑容誰頂得住呀～",
+    "aiLevel": 0
+  },
+  {
+    "id": 15,
+    "time": 4.9,
+    "mode": 4,
+    "fontSize": 25,
+    "color": 6942894,
+    "hex": "#69F0AE",
+    "text": "🌍 Save the Planet! 每一隻動物都有靈魂 🌍",
+    "aiLevel": 0
+  },
+  {
+    "id": 16,
+    "time": 5.3,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 4244735,
+    "hex": "#40C4FF",
+    "text": "Heartwarming message for both kids and adults 💚",
+    "aiLevel": 0
+  },
+  {
+    "id": 17,
+    "time": 5.8,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16766720,
+    "hex": "#FFD700",
+    "text": "Double rainbow in the sky! 🌈✨",
+    "aiLevel": 0
+  },
+  {
+    "id": 18,
+    "time": 6.2,
+    "mode": 5,
+    "fontSize": 28,
+    "color": 58998,
+    "hex": "#00E676",
+    "text": "🥗 【 Go Vegan • 和平與愛的彩虹野餐 】 🌈",
+    "aiLevel": 1
+  },
+  {
+    "id": 19,
+    "time": 6.5,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 15368444,
+    "hex": "#EA80FC",
+    "text": "Two piggies sharing a salad! My heart cannot take this 😭",
+    "aiLevel": 0
+  },
+  {
+    "id": 20,
+    "time": 6.9,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 1960374,
+    "hex": "#1DE9B6",
+    "text": "天啊兩隻小豬穿著小衣服一起吃沙拉！！太可愛了",
+    "aiLevel": 0
+  },
+  {
+    "id": 21,
+    "time": 7.3,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16766464,
+    "hex": "#FFD600",
+    "text": "Love the peaceful harmony between nature and humanity 🕊️",
+    "aiLevel": 0
+  },
+  {
+    "id": 22,
+    "time": 7.7,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16755601,
+    "hex": "#FFAB91",
+    "text": "小鳥銜著橄欖枝飛過，細節拉滿！",
+    "aiLevel": 0
+  },
+  {
+    "id": 23,
+    "time": 8.2,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 16744619,
+    "hex": "#FF80AB",
+    "text": "Wholesome vibes all the way through ✨",
+    "aiLevel": 0
+  },
+  {
+    "id": 24,
+    "time": 8.6,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 11766015,
+    "hex": "#B388FF",
+    "text": "看完心情整個變好，滿滿正能量！",
+    "aiLevel": 0
+  },
+  {
+    "id": 25,
+    "time": 9.0,
+    "mode": 5,
+    "fontSize": 28,
+    "color": 16717636,
+    "hex": "#FF1744",
+    "text": "❤️ Thank you for watching! Be kind to every life ❤️",
+    "aiLevel": 1
+  },
+  {
+    "id": 26,
+    "time": 9.3,
+    "mode": 1,
+    "fontSize": 25,
+    "color": 58879,
+    "hex": "#00E5FF",
+    "text": "10/10 animation! Putting this on repeat 🔁",
+    "aiLevel": 0
+  },
+  {
+    "id": 27,
+    "time": 9.6,
+    "mode": 4,
+    "fontSize": 25,
+    "color": 16777215,
+    "hex": "#FFFFFF",
+    "text": "條君走好 / 一秒都不想快轉的精品短片 撒花🎉",
+    "aiLevel": 0
+  }
+]

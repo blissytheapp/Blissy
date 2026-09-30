@@ -1,0 +1,43 @@
+[Script Info]
+Title: TEST Danmaku for Blissy (Multicolor & English)
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: R2L,Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,20,20,1
+Style: TOP,Arial,36,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,0,8,20,20,30,1
+Style: BTM,Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,0,2,20,20,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.40,0:00:05.40,R2L,,0,0,0,,{\move(1350,50,-400,50)\c&H00FFFFFF&}First! So happy to be here!
+Dialogue: 0,0:00:00.60,0:00:05.60,R2L,,0,0,0,,{\move(1350,95,-400,95)\c&H009972FB&}Bilibili粉色彈幕前排圍觀～
+Dialogue: 0,0:00:00.90,0:00:05.90,R2L,,0,0,0,,{\move(1350,140,-400,140)\c&H004417FF&}HIGH CUTENESS WARNING!! 🚨
+Dialogue: 1,0:00:01.20,0:00:06.20,TOP,,0,0,0,,{\c&H0000D7FF&}✨ [ Eat Green • Love Animals • Save the Planet ] ✨
+Dialogue: 0,0:00:01.50,0:00:06.50,R2L,,0,0,0,,{\move(1350,185,-400,185)\c&H0076E600&}Eat your greens! That smiling carrot is adorable 🥕
+Dialogue: 0,0:00:01.80,0:00:06.80,R2L,,0,0,0,,{\move(1350,230,-400,230)\c&H00FFF000&}青空水彩畫風真的太治癒了！
+Dialogue: 0,0:00:02.20,0:00:07.20,R2L,,0,0,0,,{\move(1350,275,-400,275)\c&H00FF88B3&}The illustration quality is breathtaking 🌸
+Dialogue: 1,0:00:02.50,0:00:07.50,BTM,,0,0,0,,{\c&H0003FF76&}🥬 健康綠色生活走起！ Eat Green & Stay Healthy 🥦
+Dialogue: 0,0:00:02.80,0:00:07.80,R2L,,0,0,0,,{\move(1350,320,-400,320)\c&H00AB80FF&}Look at that precious little piglet!! 🐷💖
+Dialogue: 1,0:00:03.10,0:00:08.10,TOP,,0,0,0,,{\c&H008140FF&}★ Page 2: Love Animals, Protect Our Friends ★
+Dialogue: 0,0:00:03.40,0:00:08.40,R2L,,0,0,0,,{\move(1350,365,-400,365)\c&H000091FF&}小豬和小男孩抱在一起好溫暖啊！
+Dialogue: 0,0:00:03.70,0:00:08.70,R2L,,0,0,0,,{\move(1350,410,-400,410)\c&H00FFE500&}Animals are friends, not food! 🐾
+Dialogue: 0,0:00:04.10,0:00:09.10,R2L,,0,0,0,,{\move(1350,455,-400,455)\c&H0000FFFF&}The page-flip effect is so smooth and realistic!
+Dialogue: 0,0:00:04.50,0:00:09.50,R2L,,0,0,0,,{\move(1350,50,-400,50)\c&H005252FF&}融化了融化了，這笑容誰頂得住呀～
+Dialogue: 1,0:00:04.90,0:00:09.90,BTM,,0,0,0,,{\c&H00AEF069&}🌍 Save the Planet! 每一隻動物都有靈魂 🌍
+Dialogue: 0,0:00:05.30,0:00:10.30,R2L,,0,0,0,,{\move(1350,95,-400,95)\c&H00FFC440&}Heartwarming message for both kids and adults 💚
+Dialogue: 0,0:00:05.80,0:00:10.80,R2L,,0,0,0,,{\move(1350,140,-400,140)\c&H0000D7FF&}Double rainbow in the sky! 🌈✨
+Dialogue: 1,0:00:06.20,0:00:11.20,TOP,,0,0,0,,{\c&H0076E600&}🥗 【 Go Vegan • 和平與愛的彩虹野餐 】 🌈
+Dialogue: 0,0:00:06.50,0:00:11.50,R2L,,0,0,0,,{\move(1350,185,-400,185)\c&H00FC80EA&}Two piggies sharing a salad! My heart cannot take this 😭
+Dialogue: 0,0:00:06.90,0:00:11.90,R2L,,0,0,0,,{\move(1350,230,-400,230)\c&H00B6E91D&}天啊兩隻小豬穿著小衣服一起吃沙拉！！太可愛了
+Dialogue: 0,0:00:07.30,0:00:12.30,R2L,,0,0,0,,{\move(1350,275,-400,275)\c&H0000D6FF&}Love the peaceful harmony between nature and humanity 🕊️
+Dialogue: 0,0:00:07.70,0:00:12.70,R2L,,0,0,0,,{\move(1350,320,-400,320)\c&H0091ABFF&}小鳥銜著橄欖枝飛過，細節拉滿！
+Dialogue: 0,0:00:08.20,0:00:13.20,R2L,,0,0,0,,{\move(1350,365,-400,365)\c&H00AB80FF&}Wholesome vibes all the way through ✨
+Dialogue: 0,0:00:08.60,0:00:13.60,R2L,,0,0,0,,{\move(1350,410,-400,410)\c&H00FF88B3&}看完心情整個變好，滿滿正能量！
+Dialogue: 1,0:00:09.00,0:00:14.00,TOP,,0,0,0,,{\c&H004417FF&}❤️ Thank you for watching! Be kind to every life ❤️
+Dialogue: 0,0:00:09.30,0:00:14.30,R2L,,0,0,0,,{\move(1350,455,-400,455)\c&H00FFE500&}10/10 animation! Putting this on repeat 🔁
+Dialogue: 1,0:00:09.60,0:00:14.60,BTM,,0,0,0,,{\c&H00FFFFFF&}條君走好 / 一秒都不想快轉的精品短片 撒花🎉
